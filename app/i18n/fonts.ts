@@ -14,7 +14,7 @@ import type { ScriptGroup } from "./config";
 const cormorant = Cormorant_Garamond({ variable: "--font-serif", subsets: ["latin", "latin-ext"], weight: ["400", "500", "600"] });
 const cormorantCyrillic = Cormorant_Garamond({ variable: "--font-serif", subsets: ["cyrillic", "latin"], weight: ["400", "500", "600"] });
 const cormorantVietnamese = Cormorant_Garamond({ variable: "--font-serif", subsets: ["vietnamese", "latin", "latin-ext"], weight: ["400", "500", "600"] });
-const dmSansVietnamese = DM_Sans({ variable: "--font-sans", subsets: ["vietnamese", "latin", "latin-ext"] });
+const dmSansVietnamese = Noto_Sans({ variable: "--font-sans", subsets: ["vietnamese", "latin", "latin-ext"] });
 const dmSans = DM_Sans({ variable: "--font-sans", subsets: ["latin", "latin-ext"] });
 const notoSansCyrillic = Noto_Sans({ variable: "--font-sans", subsets: ["cyrillic", "latin"] });
 
